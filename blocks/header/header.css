@@ -1,0 +1,17 @@
+@import url(../../blocks/header/__lang-link/_underline/header__lang-link_underline_none.css);
+@import url(../../blocks/header/__lang-link/header__lang-link.css);
+@import url(../../blocks/header/__list-links/header__list-links.css);
+@import url(../../blocks/header/__logo/header__logo.css);
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-left: 48px;
+    padding-right: 48px;
+    height: 52px;
+    max-width: 1184px;
+    margin: 0 auto;
+    position: relative;
+}
