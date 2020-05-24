@@ -1,0 +1,6 @@
+.place__website {
+    width: 46.34%;
+    grid-area: website;
+    justify-self: start;
+    align-self: flex-end;
+}

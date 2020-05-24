@@ -1,0 +1,14 @@
+@import url(../../place/__paragraph/_place/place__paragraph_place_bottom.css);
+@import url(../../place/__paragraph/_place/place__paragraph_place_top.css);
+
+.place__paragraph {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: calc(30/18);
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.place__paragraph:nth-of-type(1) {
+    margin-bottom: 24px;
+}

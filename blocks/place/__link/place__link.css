@@ -1,0 +1,6 @@
+.place__link {
+    font-size: 18px;
+    line-height: calc(22/18);
+    text-decoration-line: underline;
+    color: #ffffff;
+}

@@ -1,0 +1,18 @@
+@import url(../../blocks/place/__image/place__image.css);
+@import url(../../blocks/place/__link/place__link.css);
+@import url(../../blocks/place/__paragraph/place__paragraph.css);
+@import url(../../blocks/place/__title/place__title.css);
+@import url(../../blocks/place/__url-heading/place__url-heading.css);
+@import url(../../blocks/place/__website/place__website.css);
+@import url(../../blocks/place/__paragraphs/place__paragraphs.css);
+
+.place {
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-template-areas:
+    "title website"
+    "image paragraphs";
+    grid-row-gap: 48px;
+    grid-column-gap: 40px;
+    margin-top: 80px;
+}
