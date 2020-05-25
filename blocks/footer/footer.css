@@ -5,10 +5,18 @@
 
 .footer {
     max-width: 1184px;
-    margin-top: 160px;
+    margin-top: 92px;
     position: relative;
     display: flex;
     padding-left: 48px;
     padding-right: 48px;
     padding-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-top: 88px;
+    }
 }

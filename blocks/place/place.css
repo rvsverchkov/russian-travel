@@ -16,3 +16,10 @@
     grid-column-gap: 40px;
     margin-top: 80px;
 }
+
+@media screen and (max-width: 1024px) {
+    .place {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
