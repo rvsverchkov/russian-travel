@@ -7,3 +7,13 @@
     margin-bottom: -7px;
     font-weight: 900;
 }
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: calc(44/40);
+        font-weight: 900;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+}

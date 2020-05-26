@@ -3,9 +3,3 @@
     margin: 0 auto;
     margin-top: 92px;
 }
-
-@media screen and (max-width: 768px) {
-    .places {
-        margin-top: 88px;
-    }
-}

@@ -1,9 +1,22 @@
 .lead__image {
     background-image: url(../../../images/lead-image.svg);
     width: 100%;
+    object-fit: cover;
     padding-bottom: 62.5%;
     margin-top: 64px;
     margin-bottom: 8px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1280px) {
+    .lead__image {
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        margin-top: 40px;
+    }
 }

@@ -4,3 +4,9 @@
     justify-self: start;
     align-self: flex-end;
 }
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        display: none;
+    }
+}
