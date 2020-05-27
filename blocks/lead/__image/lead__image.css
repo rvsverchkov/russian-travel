@@ -1,8 +1,6 @@
 .lead__image {
-    background-image: url(../../../images/__image.png);
     width: 100%;
     object-fit: cover;
-    padding-bottom: 62.5%;
     margin-top: 64px;
     margin-bottom: 8px;
     background-size: cover;
