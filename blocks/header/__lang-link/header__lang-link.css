@@ -4,6 +4,11 @@
     line-height: calc(28/24);
     margin-left: 18px;
     text-decoration: none;
+    transition: all .4s ease;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
 }
 
 @media screen and (max-width: 768px) {
