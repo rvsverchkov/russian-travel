@@ -1,3 +1,10 @@
-.place__prargraphs {
-    grid-area: paragraphs;
+.place__pragraphs {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 680px) {
+    .place__paragraphs {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }

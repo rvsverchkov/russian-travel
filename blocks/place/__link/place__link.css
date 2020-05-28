@@ -5,6 +5,7 @@
     color: #ffffff;
     opacity: 1;
     transition: all .4s ease;
+    text-align: left;
 }
 
 .place__link:hover {
