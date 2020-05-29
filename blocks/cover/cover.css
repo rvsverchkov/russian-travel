@@ -8,10 +8,16 @@
 .cover {
     max-width: 1184px;
     margin: 0 auto;
-    margin-top: 92px;
+    margin-top: 12px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
+    .cover {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 680px) {
     .cover {
         margin-top: 40px;
     }
